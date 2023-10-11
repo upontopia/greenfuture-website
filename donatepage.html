@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="abcd.css">
+        <link rel="icon" type="image/x-icon" href="gficon.png">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+                <img src="gficon.png" width="50px"height="50px">
+                <a href="abc.html">Home</a> 
+                <a href="aboutpage.html">About</a> 
+                <a href="donatepage.html">Donate</a> 
+                <a href="postpage.html">Post</a> 
+                <a href="contactpage.html">Contact</a> 
+                
+              </nav>
+        </header>
+        <div>
+        <div id="yoyoyo"><p id="helphel">We need your help</p>
+        <p id="dondon">We firmly believe that sustainable development is not just an aspiration but an urgent necessity. 
+            It is a call to action that requires collective effort and support from
+             individuals like you who share our vision for a better world.</p></div>
+        <p class="wantto">I would like to donate:</p>
+        <button class="dbutton">HKD$50</button>
+        <button class="dbutton">HK$100</button>
+        <button class="dbutton">HK$500</button>
+        <button class="dbutton">$1000</button>
+        <p id="support1">which team will you support?</p>
+        <form>
+            <label for="tnumber">Enter your team number:</label>
+            <input type="text" id="tnumber" placeholder="#1234">
+            <label for="reaont">reason of supporting(optional):</label>
+            <textarea id="resaont" placeholder="write down your reason"></textarea>
+
+        </form> <hr>
+        <p id="inform1">Your information:</p>
+        <p>gender:</p>
+        <select id="dropdown1">
+            <option value="0">Select gender:</option>
+            <option value="1">male</option>
+            <option value="2">female</option>
+        </select>
+        <form>
+            <label for="firstname">First Name:</label>
+            <input type="text" id="firstname" width=20px;>
+            <label for="lastname">Last Name:</label>
+            <input type="text" id="lastname" wdith=20px;>
+            <label for="eeemail" id="lemail">Email:</label>
+            <input for="Email" id="eeemail" >
+        </form> <hr>
+        <P>please select your payment method:</P>
+        <label class="container">Crytocurrency
+            <input type="radio" checked="checked" name="radio">
+            <span class="checkmark"></span>
+          </label>
+          <label class="container">Digital wallet
+            <input type="radio" name="radio">
+            <span class="checkmark"></span>
+          </label>
+          <label class="container">Credit card
+            <input type="radio" name="radio">
+            <span class="checkmark"></span>
+          </label>
+          <button id="nextb">next</button>
+
+        </div>
+        <style>
+            .wantto{font-size: 30px;
+                    display:inline-block;}
+            div{background-color:darkcyan;
+                display:inline-block;
+                padding-left: 40px;
+                padding-right: 40px;
+                margin-top:50px;
+                padding-bottom: 50px;}
+            #support1{font-size:30px ;}
+            #inform1{font-size: 30px;}
+            .dbutton{height:50px;
+                     width:70px;
+                     border-radius:10px ;
+                     color:slategray}
+            #dropdown1{width:200px;
+                       margin-bottom: 10px;}
+            #firstname{width:150px;
+                       display:inline-block;}
+            #lastname{width:150px;
+                      display:inline-block;}
+            #lemail{display:block;}
+            #eeemail{width:400px;
+                     display:block;}
+            .checkmark {
+                position: absolute;
+                top: 0;
+                left: 0;
+               height: 25px;
+               width: 25px;
+               background-color: #eee;
+               border-radius: 50%;
+                }
+            #nextb{height:40px;
+                   width:80px;
+                   background-color:darkgrey;
+                   border-radius: 15px;
+                   font-size: 20px;}
+            #nextb :hover{opacity:80%;}
+            #nextb :active{opacity:60%;}
+            #helphel{font-family: 'Times New Roman', Times, serif;
+                     font-size: 50px;
+                     background-color:cornflowerblue;}
+            #dondon{background-color: cornflowerblue;}
+            #yoyoyo{background-color: cornflowerblue;}
+        </style>
+    </body>
+</html>
